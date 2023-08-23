@@ -1,0 +1,51 @@
+@import
+    url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.profile-name{
+    font-family: "roboto slab",sans-serif;
+    font-size: 50px;
+    font-weight: bold
+}
+.profile-image{
+    float: left;
+    margin: 1rem;
+    width: 20%
+}
+.profile-info{
+    float: left;
+}
+.role{
+    font-family: serif;
+    font-size: 30px
+}
+.location{
+    font-family:cursive;
+    font-size: 20px;
+    margin:0.5rem 0rem 1rem 0rem       
+    
+}
+.section{
+    font-family: serif;
+    font-size: 30px;
+    clear:both
+    
+}
+.detail{
+    font-size: 20px
+}
+.info{
+    font-family:monospace;
+    font-size: 20px
+}
+.about{
+    width: 50%;
+    clear: both;
+    float: left;
+    padding-right: 2rem;
+    border-right: 1px solid grey;
+}
+.skills{
+    width: 20%;
+    float: left;
+    padding-left: 2rem
+}

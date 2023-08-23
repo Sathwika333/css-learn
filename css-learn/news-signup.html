@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+    <title>News signup</title>
+    <link rel="stylesheet" href="styles/news-grid.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="logo">NEWS</h1>
+            <a class="nav-link" href="#">Signin</a>
+            <a class="nav-link" href="news-signup.html">Signup</a>
+        </div>
+        <div class="signup-container">
+            <h2 class="heading">Signup</h2>
+        <form method="post" action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <div class="form-element-container">
+                <div class="form-element">
+                <label for="name">Name</label>
+                <input type="text" placeholder="enter name" value="sathwika" id="name">
+                </div>
+                <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" placeholder="enter email" value="sathwikayadhire@gmail.com" id="email">
+                </div>
+                <div class="form-element">
+                <label for="password">Password</label>
+                <input type="text" placeholder="enter password" id="password">
+                </div>
+                <div class="form-element">
+                    <label for="color">Favorite color</label>
+                    <select id="color" name="color">
+                        <option value="R">Red</option>
+                        <option value="G" selected>Green</option>
+                        <option value="B">Blue</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="male">
+                    <label class="label-radio" for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label  class="label-radio" for="female">Female</label>
+                </div>
+                <div class="form-element">
+                    <label for="student">I am a student</label>
+                    <input type="checkbox" id="student" name="student" value="Y" checked>
+                </div>
+            </div>
+                <div class="form-element">
+                    <label for="about">About me</label>
+                    <textarea id="about">I want to become an astronant</textarea>
+                </div>
+                <input type="submit" value="signup">
+        </form> 
+        </div>
+        <div class="footer">
+            copy right 2020
+        </div>
+    </body>
+</html>

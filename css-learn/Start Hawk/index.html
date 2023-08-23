@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <div class="nav">
+        <h1 class="logo">Start Hawk</h1>
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="booking.html">my booking</a>
+        <a class="nav-item" href="destination.html">destination</a>
+        <a class="nav-item" href="login.html">login</a>
+        <a class="nav-item"  href="signup.html">signup</a>
+        </div>
+        <h2 class="heading">Plan</h2>
+        <img src="images/flight.jpeg" width="25%">
+        <div class="search-form-container">
+            <h2 class="heading">Search Flights</h2>
+            <form>
+                <div class="search-element-container">
+                    <input type="text" placeholder="From" class="form-input">
+                    <input type="text" placeholder="To" class="form-input">
+                    <input type="text" placeholder="Travel Date yyyy-mm-dd" class="form-input">
+                    <div class="form-group">
+                        <select id="class" class="form-input">
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First class</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Search" class="btn"> 
+            </form>
+        </div>
+        <h2 class="heading">Recommended flights</h2>
+        <table cellpadding="10" border="1" cellspacing="0">
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288></td>
+                <td>
+                    Berlin (BER)<br>
+                    21:00<br>
+                    Wed 28 Oct 2020
+                </td>
+                <td>49 hrs 5 min</td>
+                <td>
+                    Sydney (SYD)<br>
+                    08:05<br>
+                    Sat 31 Oct 2020
+                </td>
+                <td>$3447</td>
+                <td></td>
+                <tr>
+                <td>SH245></td>
+                <td>
+                    Sydney (SYD)<br>
+                    22:25<br>
+                    Tues 10 Nov 2020
+                </td>
+                <td>23 hrs 55 min</td>
+                <td>
+                    Berlin (BER)<br>
+                    12:20<br>
+                    Wed 11 Nov 2020
+                </td>
+                <td>$801</td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="flights">
+            <div class="flight">
+                <div class="flight-number">SH288></div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Berlin (BER)</div>
+                        <div class="departTime">21:00</div>
+                        <div class="departDate">Wed 28 Oct 2020</div>
+                   </div>
+                    <div class="duration">49 hrs 5 min</div>
+                    <div class="arrival">
+                        <div class="to">Sydney (SYD)</div>
+                        <div class="arriveTime">08:05</div>
+                        <div class="arriveDate">Sat 31 Oct 2020</div>
+                   </div>
+                </div>
+            <div class="cost">$3447</div>
+            <form action="booking.html"> 
+                <input type="submit" value="Book" class="btn">
+            </form>
+        </div>
+        </div>
+        <div class="flights">
+            <div class="flight">
+                <div class="flight-number">SH245></div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Sydney (SYD)</div>
+                        <div class="departTime">22:25</div>
+                        <div class="departDate">Tues 10 Nov 2020</div>
+                   </div>
+                    <div class="duration">23 hrs 55 min</div>
+                    <div class="arrival">
+                        <div class="to">Berlin (BER)</div>
+                        <div class="arriveTime">12:20</div>
+                        <div class="arriveDate"> Wed 11 Nov 2020</div>
+                    </div>
+                 </div>
+            <div class="cost">$801</div>
+            <form action="booking.html">
+                <input type="submit" value="Book" class="btn">
+            </form>
+         </div>
+        </div>
+    </body>
+</html>
